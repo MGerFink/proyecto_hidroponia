@@ -1,0 +1,37 @@
+body{
+    background-image: url('../media/fondo2.png');
+}
+main{
+    background-color: white;
+}
+/* p{
+    color: red; 
+} */
+h1{
+    text-align: center; color: rgba(67, 201, 67, 0.926);
+}
+#logo{
+   align-items: center;
+     width: 80px;
+
+}
+#logo:hover{
+    padding: 2rem;
+}
+#navegacion{
+    background: linear-gradient(180deg, rgba(246,245,249,0.804359243697479) 0%, rgba(67,201,67,1) 100%); 
+    font-style: oblique; 
+}
+
+#apellido{
+    border-radius: 3px;
+   box-shadow: rgba(20, 12, 104, 0.926);
+}
+footer{
+    background-color: rgba(67, 201, 67, 0.487); 
+    text-align: center;
+    font-size: medium;
+    font-style: inherit;
+    
+
+}

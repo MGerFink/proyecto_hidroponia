@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>HidroponiKatz 🌾</title>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore animi cum veniam doloremque error esse iure non at ipsum beatae, veritatis, ab ea nihil quo tempora porro. Dolorem, ipsum!</p> -->
+    <header>
+        <div align="center">
+            <img id="logo" src="./media/logo.png" alt="No encontrada">
+            <h1>HidroponiKatz</h1>  
+        </div>        
+    </header>
+    <hr>
+
+    <div id="navegacion">
+        <nav align="center">
+            <ul type="none">
+                <br>
+                <li><a href="./page/quienesSomos.html"> ¿Quienes somos?</a></li><br>
+                <li>Contacto</li><br>
+                <li>Productos</li><br>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+
+    <main>
+        <form action="./page/show_data.html" target="_blank">
+        <p><b> Formulario de registro</b></p>
+            <label for="apellido">Apellido</label>
+            <input 
+                type="text"
+                name="Apellido"
+                id="apellido"
+                required
+                required placeholder="Ingrese su apellido">
+            
+            <label for="nombre">Nombre   </label>
+            <input 
+                type="text"
+                name="Nombre"
+                id="nombre"
+                required
+                required placeholder="Ingrese su nombre">
+                <br><br>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input 
+                type="date"
+                name="Nacimiento"
+                id="nacimiento"
+                required
+                placeholder="dd/mm/yy">
+            <br><br>
+
+            <label for="email">E-mail</label>
+            <input 
+                type="email"
+                name="Email"
+                id="email"
+                required
+                required placeholder="Ingrese su E-mail">
+            <br><br>
+            <label for="telefono">Teléfono</label>
+            <input 
+                type="tel"
+                name="Telefono"
+                id="telefono"
+                size="10" required placeholder="Ej. 3416086313">
+                <br><br>
+            <label for="Localidad">Localidad</label>
+            <input 
+                type="text"
+                name="Localidad"
+                id="localidad"
+                required
+                required placeholder="Ingrese su localidad">
+            <br><br>
+            <label for="cp">Código Postal</label>
+            <input 
+                type="number"
+                name="CP"
+                id="cp"
+                required
+                required placeholder="Cod. Postal">
+            <br><br>    
+            <fieldset>
+                <legend>¿Quiere recibir promociones de nuestros productos?</legend>
+                <label for="promociones">Elija una opción:</label>
+                <input 
+                    type="radio"
+                    name="Promociones"
+                    value="si"
+                    required>Si
+                <input 
+                    type="radio"
+                    name="Promociones"
+                    value="no"
+                    required>No
+            </fieldset>
+            <br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+
+
+
+    </main>
+    <hr>
+    
+    <footer>
+        <br><br><br>
+            <h4>By Celeste Gomez</h4>
+            <br><br><br>
+    </footer>   
+</body>
+</html>
